@@ -85,7 +85,7 @@ for combo in Combinatorics.powerset(mods, 2)
 
     unit_lists = getproperty.(combo, :unit_list)
     if sum([!isempty(i) for i in unit_lists]) > 1
-        new_unit_list = Dict("units" => collect(union(unit_lists)))
+        new_unit_list = Dict("units" => collect(union(unit_lists...)))
         unit_path = joinpath(folder, "pa/units")
         mkpath(unit_path)
         write(joinpath(unit_path, "unit_list.json"), JSON.json(new_unit_list))
@@ -93,7 +93,7 @@ for combo in Combinatorics.powerset(mods, 2)
 
     comm_lists = getproperty.(combo, :comm_list)
     if sum([!isempty(i) for i in comm_lists]) > 1
-        new_comm_list = Dict("commanders" => collect(union(comm_lists)))
+        new_comm_list = Dict("commanders" => collect(union(comm_lists...)))
         comm_path = joinpath(folder, "pa/units/commanders")
         mkpath(comm_path)
         write(joinpath(comm_path, "unit_list.json"), JSON.json(new_comm_list))
