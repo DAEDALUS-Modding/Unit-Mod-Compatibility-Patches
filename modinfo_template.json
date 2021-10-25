@@ -1,0 +1,23 @@
+{
+	"author": "Team DAEDALUS, Quildtide",
+	"authors": [
+		"Team DAEDALUS",
+		"Quildtide"
+	],
+	"signature": "not yet implemented",
+	"forum": "",
+	"icon": "",
+	"titansOnly": true,
+	"category": [
+		"addon",
+		"unit",
+		"expansion",
+		"titans",
+        "compatibility",
+        "patch"
+	],
+	"context": "server",
+	"date": "2021-10-25",
+	"build": "115958",
+	"version": "0.1.0"
+}
