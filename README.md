@@ -31,7 +31,7 @@ The new CMM is missing the ability to merge multiple unit mods, which means that
 - Make sure that mod folders do not have any capital letters in their names. This broke old CMM. I haven't been able to test with new CMM yet, but it's likely to still break new CMM.
 - The mod is installed now. Go to CMM and click on the "Installed" tab; look for the ComPatch in your list of installed mods. It should probably be "installed" but not "activated". Click on the mod and click the "Activate" button.
 - Make sure to only have **ONE** ComPatch active at a time. Multiple active ComPatches may lead to undefined behavior.
-- If you deactive or active a new unit-adding mod, make sure to deactivate the current ComPatch and activate a new one (if necessary).
+- If you deactivate or activate a new unit-adding mod, make sure to deactivate the current ComPatch and activate a new one (if necessary).
 
 ## Potential Future Mod Support
 - Bugs
