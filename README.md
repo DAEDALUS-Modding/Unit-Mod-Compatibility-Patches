@@ -1,5 +1,7 @@
 # DAEDALUS Compatibility Patches (ComPatches)
 
+**NOTE: OBSOLETE NOW THAT CMM IS BACK. If you need to use PAMM for some bizarre reason, these are necessary again, but these are unlikely to be up-to-date. Message Quildtide somehow if this situation occurs, or generate new patches yourself.**
+
 Unless using the Merge Mod feature of a mod like Community Mods, multiple unit-adding mods cannot be used together unless one of the following is true:
 - One mod requires another to work (so the last-to-load mod is aware of the mod it requires)
 - A compatibility patch is used to make the mods aware of each other
