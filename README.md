@@ -20,6 +20,8 @@ The DAEDALUS ComPatches aim to support any combination of:
 - [Second Wave (2W)](https://github.com/Anonemous2/pa.mla.unit.addon)
 - [Section 17 (S17)](https://github.com/DAEDALUS-Modding/Section-17)
 
+Note that CMM's merge feature still works fine for all players if they are using Second Wave with Section 17, but without Legion; this ComPatch is still available for download, but it is obsolete.
+
 ## Usage
 
 Any combination of mods requires a specific ComPatch, head over to the Releases section and look for the ComPatch which fits your desired setup.
@@ -33,6 +35,7 @@ The new CMM is unable to merge Legion and Bugs with other unit addition mods, wh
 - Make sure that mod folders do not have any capital letters in their names. This broke old CMM. I haven't been able to test with new CMM yet, but it's likely to still break new CMM.
 - The mod is installed now. Go to CMM and click on the "Installed" tab; look for the ComPatch in your list of installed mods. It should probably be "installed" but not "activated". Click on the mod and click the "Activate" button.
 - Make sure to only have **ONE** ComPatch active at a time. Multiple active ComPatches may lead to undefined behavior.
+- Unlike the normal approach to merging mods, do **NOT** enable the "Merge (experimental)" feature in CMM when a ComPatch is on. Enabling it while using a ComPatch may lead to undefined behavior.
 - If you deactivate or activate a new unit-adding mod, make sure to deactivate the current ComPatch and activate a new one (if necessary).
 
 ## Potential Future Mod Support
