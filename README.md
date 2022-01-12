@@ -28,7 +28,7 @@ Any combination of mods requires a specific ComPatch, head over to the Releases 
 
 ## Installation Guide for CMM
 
-The new CMM is unable to merge Legion and Bugs with other unit addition mods, which means that these compatibility patches will be relevant once more until this bug is fixed. Since many users of CMM are not familiar with manual mod installations, here is a basic tutorial:
+CMM is temporarily unable to merge Legion and/or Bugs with other unit addition mods, which means that these compatibility patches will be relevant once more until this bug is fixed. Since many users of CMM are not familiar with manual mod installations, here is a basic tutorial:
 - Navigate to where your `server_mods` folder **should** be. For most Windows users, this is probably `C:/Users/[username]/AppData/Local/Uber Entertainment/Planetary Annihilation`
 - If you do not see a folder called `server_mods` at this location, make a folder called `server_mods`.
 - Extract any desired ComPatches into this folder. Make sure that each ComPatch has its own folder and that each of these folders has a file called `modinfo.json` in them. If `modinfo.json` is instead inside a folder nested within a folder in `server_mods`, this mod will not be identified. `modinfo.json` MUST BE at the top level of the mod's folder.
