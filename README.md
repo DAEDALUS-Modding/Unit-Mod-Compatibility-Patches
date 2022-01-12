@@ -1,6 +1,6 @@
 # DAEDALUS Compatibility Patches (ComPatches)
 
-**NOTE: OBSOLETE NOW THAT CMM IS BACK. If you need to use PAMM for some bizarre reason, these are necessary again, but these are unlikely to be up-to-date. Message Quildtide somehow if this situation occurs, or generate new patches yourself.**
+**NOTE: I wish I could say that these were still obsolete, but some players are currently unable to merge Legion with other mods due to a bug in CMM, so I am temporarily reviving these.**
 
 Unless using the Merge Mod feature of a mod like Community Mods, multiple unit-adding mods cannot be used together unless one of the following is true:
 - One mod requires another to work (so the last-to-load mod is aware of the mod it requires)
@@ -24,9 +24,9 @@ The DAEDALUS ComPatches aim to support any combination of:
 
 Any combination of mods requires a specific ComPatch, head over to the Releases section and look for the ComPatch which fits your desired setup.
 
-## Installation Guide for new CMM
+## Installation Guide for CMM
 
-The new CMM is missing the ability to merge multiple unit mods, which means that these compatibility patches will continue to be relevant until this feature is re-added to CMM. Since many users of new CMM are not familiar with manual mod installations, here is a basic tutorial:
+The new CMM is unable to merge Legion and Bugs with other unit addition mods, which means that these compatibility patches will be relevant once more until this bug is fixed. Since many users of CMM are not familiar with manual mod installations, here is a basic tutorial:
 - Navigate to where your `server_mods` folder **should** be. For most Windows users, this is probably `C:/Users/[username]/AppData/Local/Uber Entertainment/Planetary Annihilation`
 - If you do not see a folder called `server_mods` at this location, make a folder called `server_mods`.
 - Extract any desired ComPatches into this folder. Make sure that each ComPatch has its own folder and that each of these folders has a file called `modinfo.json` in them. If `modinfo.json` is instead inside a folder nested within a folder in `server_mods`, this mod will not be identified. `modinfo.json` MUST BE at the top level of the mod's folder.
