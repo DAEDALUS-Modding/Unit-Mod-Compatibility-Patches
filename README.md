@@ -1,6 +1,6 @@
 # DAEDALUS Compatibility Patches (ComPatches)
 
-**NOTE: I wish I could say that these were still obsolete, but some players are currently unable to merge Legion with other mods due to a bug in CMM, so I am temporarily reviving these.**
+**NOTE: I wish I could say that these were still obsolete, but some players are currently unable to merge Legion with other mods due to a bug in CMM, so I am temporarily reviving these. Three of these mods are temporarily in CMM now, which means they don't need to be installed manually.**
 
 Unless using the Merge Mod feature of a mod like Community Mods, multiple unit-adding mods cannot be used together unless one of the following is true:
 - One mod requires another to work (so the last-to-load mod is aware of the mod it requires)
@@ -26,7 +26,14 @@ Note that CMM's merge feature still works fine for all players if they are using
 
 Any combination of mods requires a specific ComPatch, head over to the Releases section and look for the ComPatch which fits your desired setup.
 
-## Installation Guide for CMM
+## CMM Installation Method (RECOMMENDED!)
+- Install the ComPatches like any other mod.
+- I recommend installing only the Legion + 2W patch or the Legion + S17 patch; if you want to use all three mods together, either 2W or S17 will merge in fine with the other ComPatch.
+- If the ComPatch covers the full range of mods you're using, don't worry if you don't see a "Merge Mods" button appear. Clicking on it if it does appear should not be an issue.
+- If the "Merge Mods" button is enabled, it doesn't matter if you have multiple ComPatches enabled or not, but try to avoid having one that is too large.
+
+
+## Manual (from repository) Installation Guide for CMM
 
 CMM is temporarily unable to merge Legion and/or Bugs with other unit addition mods, which means that these compatibility patches will be relevant once more until this bug is fixed. Since many users of CMM are not familiar with manual mod installations, here is a basic tutorial:
 
